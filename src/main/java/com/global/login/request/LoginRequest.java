@@ -1,8 +1,9 @@
 package com.global.login.request;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class LoginRequest {
-
+    @JsonIgnore
     private String email ;
     private String moblie ;
     private String type ;
